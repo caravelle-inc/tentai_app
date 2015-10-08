@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151004154530) do
+ActiveRecord::Schema.define(version: 20151008121956) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace",     limit: 255
@@ -46,10 +46,32 @@ ActiveRecord::Schema.define(version: 20151004154530) do
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true, using: :btree
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
-  create_table "items", force: :cascade do |t|
-    t.text     "name",       limit: 65535
+  create_table "item_images", force: :cascade do |t|
+    t.string   "image_type", limit: 255
+    t.binary   "image_pass", limit: 65535
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
+    t.integer  "item_id",    limit: 4
   end
+
+  create_table "items", force: :cascade do |t|
+    t.string   "name",             limit: 255,   default: ""
+    t.datetime "created_at",                                  null: false
+    t.datetime "updated_at",                                  null: false
+    t.string   "price",            limit: 255
+    t.string   "address",          limit: 255,   default: ""
+    t.string   "sub_address",      limit: 255,                null: false
+    t.float    "security_deposit", limit: 24,                 null: false
+    t.float    "key_money",        limit: 24,                 null: false
+    t.string   "station",          limit: 255,                null: false
+    t.string   "walk_to",          limit: 255,                null: false
+    t.string   "floor_plans",      limit: 255,                null: false
+    t.string   "square_meter",     limit: 255
+    t.string   "item_age",         limit: 255
+    t.text     "equipment",        limit: 65535
+    t.text     "description",      limit: 65535
+  end
+
+  add_index "items", ["name"], name: "index_items_on_name", unique: true, using: :btree
 
 end
