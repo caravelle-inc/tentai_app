@@ -8,6 +8,8 @@ ActiveAdmin.setup do |config|
   # require 'activeadmin'
 
   config.comments = false
+
+  config.authorization_adapter = ActiveAdmin::CanCanAdapter
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
   #

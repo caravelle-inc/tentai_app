@@ -5,7 +5,7 @@ class CreateItemContacts < ActiveRecord::Migration
       t.string :email, :null => false
       t.string :purpose, :null => false
       t.text :comment
-      t.datatime :arrive_at
+      t.datetime :arrive_at
       t.integer :item_id, :null => false
 
       t.timestamps null: false

@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'cancancan', '~> 1.9'
 
 
 # Use ActiveModel has_secure_password
