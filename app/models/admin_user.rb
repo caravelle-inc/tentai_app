@@ -5,6 +5,7 @@ class AdminUser < ActiveRecord::Base
 
   has_many :admin_role_assigns
   has_many :admin_roles, through: :admin_role_assigns
+  has_many :items
 
   def display_name
     self.email
