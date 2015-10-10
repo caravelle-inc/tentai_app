@@ -28,6 +28,9 @@ gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'cancancan', '~> 1.9'
 
+gem "carrierwave"
+gem 'rmagick'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
