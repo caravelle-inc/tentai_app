@@ -1,5 +1,5 @@
 ActiveAdmin.register Item do
-  permit_params :name, :price, :image, :image_cache, :address, :sub_address, :security_deposit, :key_money, :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description, :admin_user_id
+  permit_params :name, :price, :image_cache, :address, :sub_address, :security_deposit, :key_money, :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description, :admin_user_id, item_images_attributes: [:id, :image_type, :image_pass, :_destroy]
 
 
 # See permitted parameters documentation:
@@ -20,10 +20,17 @@ ActiveAdmin.register Item do
     id_column
     column :name
     column :price
-    column :image do |item|
-      image_tag(item.image.thumb_min)
-    end
     column :address
+    # column :image do |item|
+    #   image_tag(item.image.thumb_min)
+    # end
+    column :item_image do |image|
+      image_tag(image.item_images.first)
+      # table_for image.item_images do
+      #   column :image_pass do
+      #   end
+      # end
+    end
     # column :sub_address
     # column :security_deposit
     # column :key_money
@@ -45,8 +52,8 @@ ActiveAdmin.register Item do
       row :address do
         item.address
       end
-      row :image do
-        image_tag(item.image.thumb)
+      row :item_image do
+        image_tag(item.item_images.first)
       end
     end
     active_admin_comments
@@ -57,8 +64,7 @@ ActiveAdmin.register Item do
     f.inputs "Item Details" do
       f.input :name
       f.input :price
-      f.input :image
-      f.input :image_cache, as: :hidden
+      # f.input :image_cache, as: :hidden
       f.input :address
       f.input :sub_address
       f.input :security_deposit
@@ -71,6 +77,12 @@ ActiveAdmin.register Item do
       f.input :equipment
       f.input :description
       f.input :admin_user_id
+      f.inputs do
+        f.has_many :item_images, heading: 'Images', allow_destroy: true, new_record: true do |a|
+          a.input :image_type
+          a.input :image_pass
+        end
+      end
     end
     f.actions
   end
