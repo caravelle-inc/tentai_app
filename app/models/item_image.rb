@@ -3,4 +3,5 @@ class ItemImage < ActiveRecord::Base
 
   mount_uploader :image_pass, ImageUploader
 
+
 end

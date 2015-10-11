@@ -1,5 +1,5 @@
 ActiveAdmin.register Item do
-  permit_params :name, :price, :image_cache, :address, :sub_address, :security_deposit, :key_money, :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description, :admin_user_id, item_images_attributes: [:id, :image_type, :image_pass, :_destroy]
+  permit_params :name, :price, :image, :image_cache, :address, :sub_address, :security_deposit, :key_money, :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description, :admin_user_id, item_images_attributes: [:id, :image_type, :image_pass, :_destroy]
 
 
 # See permitted parameters documentation:
@@ -21,9 +21,9 @@ ActiveAdmin.register Item do
     column :name
     column :price
     column :address
-    # column :image do |item|
-    #   image_tag(item.image.thumb_min)
-    # end
+    column :image do |item|
+      image_tag(item.image.thumb_min)
+    end
     column :item_image do |image|
       image_tag(image.item_images.first)
       # table_for image.item_images do
@@ -64,7 +64,8 @@ ActiveAdmin.register Item do
     f.inputs "Item Details" do
       f.input :name
       f.input :price
-      # f.input :image_cache, as: :hidden
+      f.input :image
+      f.input :image_cache, as: :hidden
       f.input :address
       f.input :sub_address
       f.input :security_deposit
@@ -86,5 +87,11 @@ ActiveAdmin.register Item do
     end
     f.actions
   end
+
+  # controller do
+  #   def permitted_params
+  #     params.permit admin_user: [:email, :password, :password_confirmation]
+  #   end
+  # end
 
 end
