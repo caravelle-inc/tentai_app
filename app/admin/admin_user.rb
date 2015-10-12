@@ -1,16 +1,20 @@
 ActiveAdmin.register AdminUser do
   permit_params :email, :password, :password_confirmation, admin_role_ids: []
 
+  config.per_page = 10
+
   index do
     selectable_column
     id_column
-    column :admin_roles do |f|
+    column I18n.t("adminuser.admin_name"), :name
+    column I18n.t("adminuser.admin_role"), :admin_roles do |f|
       f.admin_roles.size > 0 ? f.admin_roles.map { |r| r.name }.join(", ") : ''
     end
-    column :email
+    column I18n.t("adminuser.address"), :address
+    column I18n.t("adminuser.email"), :email
     column I18n.t("adminuser.current_sign_in_at"), :current_sign_in_at
     column I18n.t("adminuser.last_sign_in_at"), :sign_in_count
-    column :created_at
+    column I18n.t("adminuser.created_at"), :created_at
     actions
   end
 
@@ -22,10 +26,14 @@ ActiveAdmin.register AdminUser do
 
   form do |f|
     f.inputs "Admin Details" do
+      f.input :name
+      f.input :tel
+      f.input :address, :as => :select, :collection => [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
+      f.input :corporate_url
       f.input :email
       f.input :password
       f.input :password_confirmation
-      f.input :admin_roles
+      f.input :admin_roles, :as => :select, :collection => [['admin','admin'],['super_admin','super_admin']], :prompt => true
     end
     f.actions
   end

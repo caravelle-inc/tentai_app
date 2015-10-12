@@ -10,4 +10,5 @@ class AdminUser < ActiveRecord::Base
   def display_name
     self.email
   end
+
 end

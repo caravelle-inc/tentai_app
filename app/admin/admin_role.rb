@@ -15,5 +15,14 @@ ActiveAdmin.register AdminRole do
 
   permit_params :name
 
+  index do
+    selectable_column
+    id_column
+    column I18n.t("adminuser.admin_role"), :name
+    column I18n.t("adminuser.created_at"), :created_at
+
+    actions
+  end
+
 
 end

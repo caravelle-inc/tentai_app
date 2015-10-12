@@ -9,6 +9,8 @@ ActiveAdmin.setup do |config|
 
   config.comments = false
 
+  # config.default_per_page = 2
+
   config.authorization_adapter = ActiveAdmin::CanCanAdapter
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
