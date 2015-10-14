@@ -13,6 +13,8 @@ ActiveAdmin.register AdminRole do
 #   permitted
 # end
 
+  menu false
+
   permit_params :name
 
   index do

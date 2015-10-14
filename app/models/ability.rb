@@ -9,10 +9,16 @@ class Ability
       super_admin
       cannot :manage, AdminUser
       cannot :manage, AdminRole
+      cannot :create, ItemContact
+      cannot :update, ItemContact
+      cannot :destroy, ItemContact
     end
 
     def super_admin
       can :manage, :all
+      cannot :create, ItemContact
+      cannot :update, ItemContact
+      cannot :destroy, ItemContact
     end
 
   end

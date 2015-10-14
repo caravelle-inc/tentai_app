@@ -1,6 +1,8 @@
 ActiveAdmin.register ItemImage do
   # permit_params :image_type, :image_pass, :item_id
 
+  menu false
+
   config.per_page = 10
 
 

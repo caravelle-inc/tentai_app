@@ -1,7 +1,7 @@
 ActiveAdmin.register Item do
   permit_params :name, :price, :image, :image_cache, :address, :sub_address, :security_deposit, :key_money, :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description, :admin_user_id, item_images_attributes: [:id, :image_type, :image_pass, :_destroy]
 
-
+  menu priority: 1
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -24,7 +24,7 @@ ActiveAdmin.register Item do
     column I18n.t("adminuser.top_image"), :image do |item|
       image_tag(item.image.thumb_min)
     end
-    #item_imagesから表示の場合
+    # item_imagesから表示の場合
     # column I18n.t("adminuser.item_image"), :item_image do |item|
     #   image_tag(item.item_images.first.image_pass.thumb_min)
     # end
@@ -49,6 +49,9 @@ ActiveAdmin.register Item do
       end
       row "間取り" do
         image_tag item.item_images.first.image_pass.thumb_min
+      end
+      row "お問い合わせ" do
+
       end
     end
     active_admin_comments

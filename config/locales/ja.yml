@@ -6,11 +6,13 @@ ja:
      item: '物件情報'
      item_image: '物件写真'
      admin_role: '管理権限'
+     item_contact: '問い合わせ'
   adminuser:
     admin_name: '企業名'
     admin_role: '管理権限'
     email: 'メールアドレス'
     item_name: '物件名'
+    contact_name: '申込者'
     price: '家賃'
     address: '住所'
     top_image: '外観'
@@ -21,20 +23,7 @@ ja:
     last_sign_in_at: '前回ログイン時刻'
     station: '最寄り駅'
     floor_plans: '間取り'
-#  models:
-#        admin_user: "管理者"
-#        item: "物件名"
-#      attributes:
-#        admin_user:
-#          email: メールアドレス
-#          current_sign_in_at: 最新ログイン日時
-#          sign_in_count: ログイン回数
-#          created_at: 作成日時
-#        name:
-#          name: 名前
-#          date: 日付
-#          created_at: 作成日時
-#          updated_at: 更新日時
+    purpose: '内容'
   date:
     abbr_day_names:
     - 日

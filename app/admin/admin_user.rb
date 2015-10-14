@@ -1,6 +1,8 @@
 ActiveAdmin.register AdminUser do
   permit_params :email, :password, :password_confirmation, admin_role_ids: []
 
+  menu priority: 3
+
   config.per_page = 10
 
   index do
