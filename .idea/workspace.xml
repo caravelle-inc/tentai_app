@@ -1,10 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164448b2-826d-4670-95da-0d2663a972e8" name="Default" comment="">
+    <list default="true" id="164448b2-826d-4670-95da-0d2663a972e8" name="Default" comment="Merge branch 'master' into feature-review&#10;&#10;Conflicts:&#10;&#9;app/views/articles/show.html+sp.erb&#10;&#9;app/views/articles/show.html.erb&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FIL/app/views/modals/_new_favorite.html+sp.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/app/views/company_mailer/send_post_request.en.text.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/app/views/company_mailer/send_post_request.zh-CN.text.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/mailers/company_mailer/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/mailers/company_mailer/ja.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/mailers/company_mailer/zh-CN.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/shop_type/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/shop_type/ja.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/shop_type/zh-CN.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/commons/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/commons/ja.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/commons/zh-CN.yml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../FIL/app/views/company_mailer/send_post_request.ja.text.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/company_mailer/send_post_request.text.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/articles/_block.html+sp.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/articles/_block.html+sp.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/articles/_block.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/articles/_block.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/modals/_complete.en.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/modals/_complete.en.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/commons/_share_sns.html+sp.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/commons/_share_sns.html+sp.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/commons/_share_sns.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/commons/_share_sns.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/commons/_sidebar.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/commons/_sidebar.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/users/commons/_sidebar.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/users/commons/_sidebar.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/layouts/application.html+sp.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/layouts/application.html+sp.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/designs/user/article-new.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/designs/user/article-new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/models/article.rb" afterPath="$PROJECT_DIR$/../FIL/app/models/article.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/article_contents.coffee" afterPath="$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/article_contents.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/controllers/admin/article_contents_controller.rb" afterPath="$PROJECT_DIR$/../FIL/app/controllers/admin/article_contents_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/spec/controllers/admin/article_contents_controller_spec.rb" afterPath="$PROJECT_DIR$/../FIL/spec/controllers/admin/article_contents_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/article_section.js.coffee" afterPath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/article_section.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/spec/factories/articles.rb" afterPath="$PROJECT_DIR$/../FIL/spec/factories/articles.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/spec/controllers/admin/articles_controller_spec.rb" afterPath="$PROJECT_DIR$/../FIL/spec/controllers/admin/articles_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_app/.idea/blog_app.iml" afterPath="$PROJECT_DIR$/../blog_app/.idea/blog_app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/mailers/company_mailer.rb" afterPath="$PROJECT_DIR$/../FIL/app/mailers/company_mailer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/users/registrations/complete.en.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/users/registrations/complete.en.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/reservations/information/complete.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/reservations/information/complete.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/users/confirmations/complete.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/users/confirmations/complete.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/users/omniauth_callback/complete.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/users/omniauth_callback/complete.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/controllers/users/confirmations_controller.rb" afterPath="$PROJECT_DIR$/../FIL/app/controllers/users/confirmations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/models/course.rb" afterPath="$PROJECT_DIR$/../FIL/app/models/course.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/users/sessions/create.js.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/users/sessions/create.js.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/area/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/area/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/article/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/article/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/article_content/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/article_content/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/credit_card/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/credit_card/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/genre/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/genre/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/post_request/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/post_request/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/reservation/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/reservation/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/review/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/review/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/spot/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/spot/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/user/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/user/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/articles/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/articles/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/commons/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/commons/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/defaults/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/defaults/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/layouts/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/layouts/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/modals/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/modals/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/en.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/../FIL/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/image.js.coffee" afterPath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/image.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/admin/article_contents/index.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/admin/article_contents/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/breads/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/breads/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/article/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/article/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/article_content/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/article_content/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/reservation/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/reservation/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/review/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/review/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/spot/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/spot/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/articles/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/articles/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/commons/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/commons/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/defaults/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/defaults/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/modals/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/modals/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/ja.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/ja.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/controllers/concerns/login_user.rb" afterPath="$PROJECT_DIR$/../FIL/app/controllers/concerns/login_user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_app/.idea/modules.xml" afterPath="$PROJECT_DIR$/../blog_app/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/reservations/information/new.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/reservations/information/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/controllers/users/omniauth_callback_controller.rb" afterPath="$PROJECT_DIR$/../FIL/app/controllers/users/omniauth_callback_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/preview_modal_body.coffee" afterPath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/preview_modal_body.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/quote.js.coffee" afterPath="$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/quote.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/controllers/users/registrations_controller.rb" afterPath="$PROJECT_DIR$/../FIL/app/controllers/users/registrations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/secrets.yml.sample" afterPath="$PROJECT_DIR$/../FIL/config/secrets.yml.sample" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/db/seeds.rb" afterPath="$PROJECT_DIR$/../FIL/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/articles/show.html+sp.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/articles/show.html+sp.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/articles/show.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/articles/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/views/transrations/show.html.erb" afterPath="$PROJECT_DIR$/../FIL/app/views/transrations/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/style.scss" afterPath="$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp/style.scss" afterPath="$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog_app/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../blog_app/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/wideslider.js" afterPath="$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/wideslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/breads/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/breads/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/area/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/area/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/article/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/article/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/article_content/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/article_content/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/credit_card/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/credit_card/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/genre/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/genre/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/post_request/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/post_request/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/reservation/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/reservation/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/review/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/review/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/spot/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/spot/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/models/user/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/models/user/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/articles/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/articles/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/commons/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/commons/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/defaults/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/defaults/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/layouts/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/layouts/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/modals/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/modals/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/review_photos/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/review_photos/zh-CN.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/zh-CN.yml" afterPath="$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/zh-CN.yml" />
     </list>
     <ignored path="tentai_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -418,6 +532,839 @@
         <favorite_root url="file://$PROJECT_DIR$/README.rdoc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
         <favorite_root url="file://$PROJECT_DIR$/Gemfile.lock" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/../FIL" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/db" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150610103902_create_users.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150618054653_create_areas.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150728032855_create_items.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150907073535_create_spots.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150617124209_create_genres.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150618113126_create_reviews.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150709054806_create_courses.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150612112720_create_articles.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20151008022846_create_favorites.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150611082100_add_salt_to_users.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150618054705_create_shop_types.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150904071049_add_photo_to_users.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150708073736_create_reservations.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150803103827_create_credit_cards.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20151001090606_add_image_to_genres.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150619062051_create_review_photos.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150612115235_create_authentications.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150617045520_add_user_type_to_users.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150710033632_create_cource_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150901105316_rename_columns_chinese.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150612112731_create_article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150909095348_add_top_flg_to_articles.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150709064542_rename_columns_in_course.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150710033329_change_columns_in_courses.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150612114921_remove_password_from_users.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150803022454_change_columns_in_articles.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150803085654_change_columns_in_articles2.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150804012417_create_article_credit_cards.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20151001065853_add_icon_class_to_shop_types.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150818103642_add_min_max_price_to_articles.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20151006100434_change_rating_type_in_reviews.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150619022805_add_status_in_article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150709054133_change_columns_in_reservations.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150819083939_add_holiday_to_article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150803022512_change_columns_in_article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150804013627_remove_credit_card_flg_from_articles.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150709080343_change_column_default_in_reservations.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150828092911_add_difficulty_remarks_to_article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/db/migrate/20150819112448_change_reservations_remarks_in_article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/db/seeds.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/db/schema.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/app" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/home" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/home/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/home/index.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/home" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/home/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/areas" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/areas/sort.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/areas/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/areas/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/areas/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/genres" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/genres/sort.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/genres/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/genres/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/genres/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/commons" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/commons/_nav.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/commons/_sidebar.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/update.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/_block.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/_sidebar.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/articles/create.json.jbuilder" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/shop_types" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/shop_types/sort.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/shop_types/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/shop_types/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/shop_types/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/credit_cards" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/credit_cards/sort.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/credit_cards/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/credit_cards/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/credit_cards/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/transrations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/transrations/create.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/change_status" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/change_status/update.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/transrationable" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/transrationable/update.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/article_contents" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/article_contents/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/article_contents/_block.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/admin/article_contents/show.json.jbuilder" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/home" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/home/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/commons" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/commons/_sidebar.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reviews" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reviews/error.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reviews/create.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reviews/edit.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reviews/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reviews/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/profiles" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/profiles/edit.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/sessions" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/sessions/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/sessions/create.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/favorites" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/favorites/error.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/favorites/create.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/favorites/edit.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/favorites/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/favorites/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reservations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/reservations/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/confirmations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/confirmations/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/confirmations/error.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/confirmations/complete.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/registrations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/registrations/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/registrations/create.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/registrations/complete.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/registrations/complete.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/review_photos" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/review_photos/destroy.js.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/authentications" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/authentications/edit.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/omniauth_callback" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/omniauth_callback/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/omniauth_callback/failure.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/users/omniauth_callback/complete.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/genres" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/genres/show.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/genres/show.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_sign_in.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_sign_up.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_about.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_about.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_new_review.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_about.zh-CN.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_complete.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_complete.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_edit_review.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_new_favorite.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_edit_favorite.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/modals/_new_favorite.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons/_sidebar.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons/_footer_js.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons/_header_js.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons/_share_sns.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons/_form_search.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/commons/_share_sns.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user/mypage.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user/article.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user/profile.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user/article-new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user/news-detail.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user/article-new.html copy.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/404.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/500.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/index.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/login.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/terms.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/detail.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/browser.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/keyword.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/privacy.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/request.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/sitemap.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/user.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/category.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/pagelist.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/translate.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/categories.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/designs/category.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/layouts" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/layouts/mailer.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/layouts/mailer.text.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/layouts/application.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/layouts/application.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/terms.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/terms.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/company.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/company.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/privacy.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/privacy.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/terms.zh-CN.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/company.zh-CN.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/statics/privacy.zh-CN.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles/show.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles/_block.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles/show.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles/_block.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles/_block_sub.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/articles/_review_list.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_gap.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_page.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_gap.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_page.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_last_page.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_next_page.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_paginator.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_prev_page.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_first_page.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_last_page.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_next_page.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_paginator.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_prev_page.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/kaminari/_first_page.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/user_mailer" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/user_mailer/member_registration.en.text.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/user_mailer/member_registration.ja.text.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/post_request" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/post_request/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/post_request/new.html+sp.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/post_request/complete.en.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/post_request/complete.ja.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/post_request/complete.zh-CN.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/reservations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/reservations/information" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/reservations/information/new.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/reservations/information/complete.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/transrations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/transrations/show.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/company_mailer" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/views/company_mailer/send_post_request.text.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/logo.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/favicon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-ie.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/noimage.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/about-bg.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-noon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/about-bg-s.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/blockquote.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-night.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/logo-white.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/touch-icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-chorme.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-safari.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/slider-next.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/slider-prev.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-firefox.jpg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/icon-morning.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/apple-touch-icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/logo-description.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/promoter-default.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/styled-select-bg.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/images/logo-square-white.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/areas.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/genres.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/articles.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/shop_types.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/credit_cards.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/admin/article_contents.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/main.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/application.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/pc/animatedModal.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/sp" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/sp/main.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/sp/application.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/sp/sp-slidemenu.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/text.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/image.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/quote.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/items/heading.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/_mixins" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/_mixins/form_base.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/_mixins/item_base.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/_mixins/article_validation.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/.gitkeep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/main.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/error.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/form_main.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/form_spot.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/insert_item.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/article_section.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/preview_modal_body.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/button_edit_item.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/articles/item_action_section.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/application.js.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/react/react-bootstrap.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/users" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/users/reviews.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/users/favorites.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/main.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/reservations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/reservations/information.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/modals.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/articles.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/commons/transrations.coffee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/pubsub.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/dropzone.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/wideslider.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/bootstrap.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/jquery.easing.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/jquery.flexslider.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/javascripts/includes/jquery.customSelect.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/style.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/animate.min.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/application.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/wideslider.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/pc/bootstrap.css.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp/style.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp/application.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp/flexslider.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/sp/bootstrap.css.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/includes" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/app/assets/stylesheets/includes/mixin.css.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/area.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/item.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/spot.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/user.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/master.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/encryption.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/course_i18n.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/article_i18n.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/blank_to_nil.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/currency_rate.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/paperclipable.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/attributes_i18n.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/concerns/password_encryptor.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/genre.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/course.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/review.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/article.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/favorite.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/settings.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/shop_type.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/credit_card.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/reservation.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/post_request.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/review_photo.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/authentication.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/course_content.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/article_content.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/models/article_credit_card.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/app/helpers" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/helpers/application_helper.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/app/mailers" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/mailers/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/mailers/user_mailer.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/mailers/company_mailer.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/mailers/application_mailer.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/home_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/areas_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/genres_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/articles_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/shop_types_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/application_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/credit_cards_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/transrations_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/change_status_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/transrationable_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/admin/article_contents_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/home_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/reviews_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/profiles_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/sessions_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/favorites_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/reservations_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/confirmations_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/registrations_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/review_photos_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/authentications_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/users/omniauth_callback_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/authors" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/authors/home_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/concerns" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/concerns/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/concerns/login_user.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/concerns/admin_item_handler.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/concerns/admin_spot_handler.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/concerns/admin_article_credit_card_handler.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/reservations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/reservations/information_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/home_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/areas_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/genres_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/designs_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/statics_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/articles_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/application_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/area_genres_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/post_request_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/app/controllers/transrations_controller.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/bin" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/bin/rake" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/bin/rails" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/bin/setup" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/bin/bundle" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/bin/spring" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/lib" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/lib/tasks" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/lib/tasks/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/lib/assets" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/lib/assets/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/log" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/log/.keep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/log/test.log" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/log/development.log" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/spec" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/models" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/models/item_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/models/spot_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/models/review_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/models/article_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/models/article_content_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/routing" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/routing/admin" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/routing/admin/articles_route_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/routing/admin/transrations_route_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/routing/admin/transrationable_route_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/routing/admin/article_contents_route_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/dummy.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/items.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/spots.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/users.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/genres.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/reviews.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/articles.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/credit_cards.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/factories/article_contents.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/controllers" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/controllers/admin" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/controllers/admin/articles_controller_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/controllers/admin/article_contents_controller_spec.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/spec_helper.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/spec/rails_helper.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/scopes" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/scopes/scope_settings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/FIL.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/vcs.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/.rakeTasks" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/.generators" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/encodings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/dataSources.ids" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/.idea/dataSources.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/.rspec" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/config" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/deploy" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/deploy/staging.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/deploy/production.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/boot.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/home" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/home/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/home/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/home/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/areas" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/areas/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/areas/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/areas/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/home" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/home/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/home/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/home/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reviews" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reviews/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reviews/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reviews/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/profiles" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/profiles/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/sessions" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/sessions/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/favorites" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/favorites/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/favorites/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/favorites/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reservations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reservations/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reservations/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/reservations/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/confirmations/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/registrations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/registrations/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/review_photos" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/review_photos/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/review_photos/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/review_photos/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/authentications" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/authentications/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/authentications/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/authentications/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/users/omniauth_callback/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/genres" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/genres/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/genres/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/genres/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/modals" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/modals/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/modals/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/modals/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/commons" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/commons/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/commons/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/commons/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/layouts" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/layouts/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/layouts/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/layouts/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/articles" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/articles/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/articles/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/articles/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/defaults" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/defaults/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/defaults/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/defaults/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/area_genres" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/area_genres/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/area_genres/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/area_genres/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/post_request" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/post_request/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/post_request/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/post_request/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/reservations" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/reservations/information" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/views/reservations/information/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/breads" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/breads/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/breads/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/breads/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/area" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/area/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/area/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/area/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/spot" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/spot/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/spot/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/spot/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/user" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/user/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/user/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/user/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/genre" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/genre/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/genre/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/genre/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/course" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/course/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/course/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/course/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/review" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/review/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/review/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/review/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/favorite" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/favorite/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/favorite/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/favorite/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/credit_card" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/credit_card/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/credit_card/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/credit_card/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/reservation" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/reservation/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/reservation/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/reservation/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/post_request" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/post_request/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/post_request/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/post_request/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/authentication" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/authentication/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/authentication/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/authentication/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article_content" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article_content/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article_content/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/models/article_content/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/mailers" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/mailers/user_mailer" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/mailers/user_mailer/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/mailers/user_mailer/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/mailers/user_mailer/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/defaults" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/defaults/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/defaults/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/defaults/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/meta_tags" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/meta_tags/en.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/meta_tags/ja.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/../FIL/config/locales/meta_tags/zh-CN.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/unicorn" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/unicorn/production.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/deploy.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/routes.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/sitemap.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/secrets.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/database.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/environments" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/environments/test.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/environments/production.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/environments/development.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/redis.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/assets.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/omniauth.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/mime_types.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/inflections.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/session_store.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/kaminari_config.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/wrap_parameters.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/cookies_serializer.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/backtrace_silencers.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/config/initializers/filter_parameter_logging.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/settings.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/application.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/environment.rb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/config/secrets.yml.sample" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/public" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts" module="FIL" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/FontAwesome.otf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/flexslider-icon.eot" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/flexslider-icon.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/flexslider-icon.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/flexslider-icon.woff" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/fontawesome-webfont.eot" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/fontawesome-webfont.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/fontawesome-webfont.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/../FIL/public/fonts/fontawesome-webfont.woff" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/public/404.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/public/500.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/../FIL/public/robots.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/Capfile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/Gemfile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/logo.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/Rakefile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/config.ru" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/Guardfile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/README.rdoc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/Gemfile.lock" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/../FIL/.ruby-version" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
     </favorites_list>
   </component>
   <component name="FileEditorManager">
@@ -425,7 +1372,7 @@
       <file leaf-file-name="item_contacts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/item_contacts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54347825" vertical-offset="0" max-vertical-offset="552">
+            <state vertical-scroll-proportion="0.5703422" vertical-offset="0" max-vertical-offset="526">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -435,7 +1382,7 @@
       <file leaf-file-name="items_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -445,7 +1392,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/items/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -509,6 +1456,7 @@
         <option value="$PROJECT_DIR$/app/controllers/item_contacts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/item_contacts/new.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -704,19 +1652,11 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <list size="12">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Development: FIL" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Production: FIL" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.spec: FIL" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.test: FIL" />
-      <item index="4" class="java.lang.String" itemvalue="Rails.Development: blog_app" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Development: tentai_app" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Production: blog_app" />
-      <item index="7" class="java.lang.String" itemvalue="Rails.Production: tentai_app" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.spec: blog_app" />
-      <item index="9" class="java.lang.String" itemvalue="Rake.spec: tentai_app" />
-      <item index="10" class="java.lang.String" itemvalue="Rake.test: blog_app" />
-      <item index="11" class="java.lang.String" itemvalue="Rake.test: tentai_app" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: tentai_app" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: tentai_app" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec: tentai_app" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: tentai_app" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -753,14 +1693,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="210" y="23" width="1182" height="872" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28039703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21842106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2254386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -817,14 +1757,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/items/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43711656" vertical-offset="0" max-vertical-offset="652">
@@ -955,7 +1887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6862745" vertical-offset="0" max-vertical-offset="765">
           <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,7 +1908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +1915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23136246" vertical-offset="0" max-vertical-offset="778">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3856041" vertical-offset="0" max-vertical-offset="1320">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7904884" vertical-offset="0" max-vertical-offset="825">
           <caret line="41" column="23" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,7 +1978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +1985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,7 +1992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,7 +1999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1530">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,7 +2020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36632392" vertical-offset="0" max-vertical-offset="1005">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +2034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3576159" vertical-offset="0" max-vertical-offset="755">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +2055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="778">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,10 +2062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9411765" vertical-offset="0" max-vertical-offset="1050">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="e#564#596#0" expanded="true" />
-            <element signature="e#615#642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,7 +2069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.60784316" vertical-offset="885" max-vertical-offset="1650">
           <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,13 +2084,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59681696" vertical-offset="0" max-vertical-offset="754">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/items/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
@@ -1191,9 +2103,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.512334" vertical-offset="0" max-vertical-offset="527">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/item_contacts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54347825" vertical-offset="0" max-vertical-offset="552">
+        <state vertical-scroll-proportion="0.5703422" vertical-offset="0" max-vertical-offset="526">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
