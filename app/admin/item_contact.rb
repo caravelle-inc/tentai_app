@@ -48,17 +48,17 @@ ActiveAdmin.register ItemContact do
   filter :purpose
   filter :item_id
 
-  form do |f|
-    f.inputs "Admin Details" do
-      f.input :name
-      f.input :email
-      f.input :purpose, :as => :select, :collection => [['内見したい', 'naiken'],['詳しく聞きたい','kuwashiku'],['その他','sonohoka']], :prompt => true
-      f.input :comment
-      f.input :arrive_at
-      f.input :item_id
-    end
-    f.actions
-  end
+  # form do |f|
+  #   f.inputs "Admin Details" do
+  #     f.input :name
+  #     f.input :email
+  #     f.input :purpose, :as => :select, :collection => [['内見したい', 'naiken'],['詳しく聞きたい','kuwashiku'],['その他','sonohoka']], :prompt => true
+  #     f.input :comment
+  #     f.input :arrive_at
+  #     f.input :item_id
+  #   end
+  #   f.actions
+  # end
 
 
 end

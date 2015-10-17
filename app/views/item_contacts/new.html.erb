@@ -1,0 +1,31 @@
+<h1>お問い合わせ</h1>
+<%= form_for @item_contact do |f| %>
+    <p>
+    <div>
+      <%= f.label :'名前' %>
+      <%= f.text_field :name %>
+    </div>
+    <div>
+      <%= f.label :'メールアドレス' %>
+      <%= f.text_field :email %>
+    </div>
+    <div>
+      <%= f.label :'目的' %>
+      <%= f.text_field :purpose %>
+    </div>
+    <div>
+      <%= f.label :'コメント' %>
+      <%= f.text_area :comment %>
+    </div>
+    <div>
+      <%= f.hidden_field :arrive_at, :value => Time.now %>
+    </div>
+    <%= f.hidden_field :item_id, :value => params[:id] %>
+    <% if @item_contact.errors.any? %>
+        <%= @item_contact.errors.messages[:item_contact][0] %>
+    <% end %>
+    </p>
+    <p>
+      <%= f.submit :'お問い合わせする' %>
+    </p>
+<% end %>
