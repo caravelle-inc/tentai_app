@@ -33,6 +33,7 @@ gem 'rmagick'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
+gem 'bootstrap-sass-extras'
 
 gem 'bootstrap-generators'
 
