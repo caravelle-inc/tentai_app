@@ -31,6 +31,10 @@ gem 'cancancan', '~> 1.9'
 gem "carrierwave"
 gem 'rmagick'
 
+gem 'autoprefixer-rails'
+gem 'bootstrap-sass'
+
+gem 'bootstrap-generators'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

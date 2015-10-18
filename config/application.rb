@@ -1,3 +1,4 @@
+#Asset Pipeline互換の行を追加
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
@@ -24,5 +25,9 @@ module TentaiApp
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    #AssetPipelineによるコンパイル対象を増やす
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
+
