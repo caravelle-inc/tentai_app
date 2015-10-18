@@ -1,5 +1,54 @@
-<h1>物件一覧</h1>
-<p>Find me in app/views/items/index.html.erb</p>
-<% @items.each do |item| %>
-    <div><%= link_to item.name, item_path(item.id) %></div>
-<% end %>
+<%- model_class = Item -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:name) %></th>
+      <th><%= model_class.human_attribute_name(:price) %></th>
+      <th><%= model_class.human_attribute_name(:address) %></th>
+      <th><%= model_class.human_attribute_name(:sub_address) %></th>
+      <th><%= model_class.human_attribute_name(:security_deposit) %></th>
+      <th><%= model_class.human_attribute_name(:key_money) %></th>
+      <th><%= model_class.human_attribute_name(:station) %></th>
+      <th><%= model_class.human_attribute_name(:walk_to) %></th>
+      <th><%= model_class.human_attribute_name(:floor_plans) %></th>
+      <th><%= model_class.human_attribute_name(:square_meter) %></th>
+      <th><%= model_class.human_attribute_name(:item_age) %></th>
+      <th><%= model_class.human_attribute_name(:equipment) %></th>
+      <th><%= model_class.human_attribute_name(:description) %></th>
+      <th><%= model_class.human_attribute_name(:admin_user_id) %></th>
+      <th><%= model_class.human_attribute_name(:image) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @items.each do |item| %>
+      <tr>
+        <td><%= item.id %></td>
+          <td><%= link_to item.name, item_path(item.id) %></td>
+          <td><%= item.price %></td>
+          <td><%= item.address %></td>
+          <td><%= item.sub_address %></td>
+          <td><%= item.security_deposit %></td>
+          <td><%= item.key_money %></td>
+          <td><%= item.station %></td>
+          <td><%= item.walk_to %></td>
+          <td><%= item.floor_plans %></td>
+          <td><%= item.square_meter %></td>
+          <td><%= item.item_age %></td>
+          <td><%= item.equipment %></td>
+          <td><%= item.description %></td>
+          <td><%= item.admin_user_id %></td>
+          <td><%= item.image %></td>
+        <td><%=l item.created_at, format: :long %></td>
+        <td>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
