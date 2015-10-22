@@ -1,15 +1,14 @@
-<%= simple_form_for @item_contact, :html => { :class => 'form-horizontal' }, wrapper: :horizontal_form, wrapper_mappings: { check_boxes: :horizontal_radio_and_checkboxes, radio_buttons: :horizontal_radio_and_checkboxes, file: :horizontal_file_input, boolean: :horizontal_boolean } do |f| %>
+<%= simple_form_for @item_contact, :html => {:class => 'form-horizontal'}, wrapper: :horizontal_form, wrapper_mappings: {check_boxes: :horizontal_radio_and_checkboxes, radio_buttons: :horizontal_radio_and_checkboxes, file: :horizontal_file_input, boolean: :horizontal_boolean} do |f| %>
     <%= f.input :name %>
     <%= f.input :email %>
     <%= f.input :purpose %>
     <%= f.input :comment %>
-    <%= f.input :arrive_at, :as => :hidden, input_html: {value: Time.now}  %>
-    <%= f.input :item_id,:as => :hidden, input_html: {value: params[:id]} %>
-  <div class="form-group">
-    <div class='col-sm-offset-3 col-sm-9'>
-      <%= f.button :submit, :class => 'btn-primary' %>
-      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                  items_path, :class => 'btn btn-default' %>
+    <%= f.input :arrive_at, :as => :hidden, input_html: {value: Time.now} %>
+    <%= f.input :item_id, :as => :hidden, input_html: {value: params[:id]} %>
+    <div class="form-group">
+      <div class='col-sm-offset-3 col-sm-9'>
+        <%= f.button :submit, :class => 'btn-primary' %>
+        <%= link_to t('.cancel', :default => t("helpers.links.cancel")), items_path, :class => 'btn btn-default' %>
+      </div>
     </div>
-  </div>
 <% end %>
