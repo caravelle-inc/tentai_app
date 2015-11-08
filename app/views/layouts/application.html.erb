@@ -64,10 +64,6 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-9">
-          <%= bootstrap_flash %>
-          <%= yield %>
-        </div>
         <div class="col-md-3">
           <div class="well sidebar-nav">
             <h3>Sidebar</h3>
@@ -79,6 +75,10 @@
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
+        <div class="col-md-9">
+          <%= bootstrap_flash %>
+          <%= yield %>
+        </div>
       </div><!--/row-->
 
       <footer>

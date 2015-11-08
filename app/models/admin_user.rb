@@ -7,8 +7,10 @@ class AdminUser < ActiveRecord::Base
   has_many :admin_roles, through: :admin_role_assigns
   has_many :items
 
+  validates :name, :tel, :address, :email, :admin_roles, :password_confirmation,  presence: true
+
   def display_name
-    self.email
+    self.name
   end
 
 end

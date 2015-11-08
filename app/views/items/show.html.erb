@@ -34,7 +34,9 @@
       <dt class="label label-default"><%= model_class.human_attribute_name(:admin_user_id) %></dt>
       <dd><pre class="prettyprint"><%= @item.admin_user_id %></pre></dd>
       <dt class="label label-default"><%= model_class.human_attribute_name(:image) %></dt>
-      <dd><pre class="prettyprint"><%= @item.image %></pre></dd>
+        <% @item.item_images.each do |image| %>
+          <dd><pre class="prettyprint"><%= image_tag image.image_pass.thumb_min %></pre></dd>
+        <% end %>
   </dl>
 </div>
 

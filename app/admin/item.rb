@@ -1,5 +1,7 @@
 ActiveAdmin.register Item do
-  permit_params :name, :price, :image, :image_cache, :address, :sub_address, :security_deposit, :key_money, :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description, :admin_user_id, item_images_attributes: [:id, :image_type, :image_pass, :_destroy]
+  permit_params :name, :price, :image, :image_cache, :address, :sub_address, :security_deposit, :key_money,
+                :station, :walk_to, :floor_plans, :square_meter, :item_age, :equipment, :description,
+                :admin_user_id, item_images_attributes: [:id, :image_type, :image_pass, :_destroy]
 
   menu priority: 1
 # See permitted parameters documentation:

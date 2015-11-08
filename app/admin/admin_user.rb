@@ -1,5 +1,5 @@
 ActiveAdmin.register AdminUser do
-  permit_params :email, :password, :password_confirmation, admin_role_ids: []
+  permit_params :email, :password, :password_confirmation, :name, :tel, :address, :corporate_url, admin_role_ids: []
 
   menu priority: 3
 
@@ -35,7 +35,7 @@ ActiveAdmin.register AdminUser do
       f.input :email
       f.input :password
       f.input :password_confirmation
-      f.input :admin_roles, :as => :select, :collection => [['admin','admin'],['super_admin','super_admin']], :prompt => true
+      f.input :admin_roles, :as => :select, :collection => [['admin', 2],['super_admin', 1]], :prompt => true
     end
     f.actions
   end

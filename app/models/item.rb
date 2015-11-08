@@ -7,6 +7,9 @@ class Item < ActiveRecord::Base
 
   mount_uploader :image, ImageUploader
 
-  paginates_per 2
+  paginates_per 4
+
+  validates :name, :price, :address, :sub_address, :security_deposit, :key_money, :station,
+            :walk_to, :floor_plans, :square_meter, :item_age, :image,  presence: true
 
 end

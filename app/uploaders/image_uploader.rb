@@ -19,11 +19,11 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   # サムネイルを生成する設定
   version :thumb do
-    process :resize_to_limit => [300, 300]
+    process :resize_to_limit => [180, 135]
   end
 
   version :thumb_min do
-    process :resize_to_limit => [100, 100]
+    process :resize_to_limit => [100, 75]
   end
 
   # jpg,jpeg,gif,pngしか受け付けない
