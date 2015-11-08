@@ -7,4 +7,6 @@ class Item < ActiveRecord::Base
 
   mount_uploader :image, ImageUploader
 
+  paginates_per 2
+
 end
