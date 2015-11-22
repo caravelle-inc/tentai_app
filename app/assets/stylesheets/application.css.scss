@@ -5,5 +5,48 @@
 
 
 body {
-  padding-top: 70px;
+  padding-top: 10px;
+}
+
+.container > .navbar-collapse > ul {
+  margin-left: 320px;
+}
+
+.kensaku {
+  text-align : center;
+}
+
+.font-large {
+//  font-weight: bold;
+  font-size: large;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.item-count {
+  float: left;
+}
+
+.sort {
+  float: right;
+}
+
+.item-image-body {
+
+}
+
+.main-item-image {
+
+}
+
+.item-image-list {
+//  float: left;
+  list-style:none;
+}
+
+.table-item-detail {
+  table-layout: fixed;
+  width: 100%;
 }

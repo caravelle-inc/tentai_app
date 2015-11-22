@@ -35,10 +35,10 @@ ActiveAdmin.register ItemContact do
   #       item.address
   #     end
   #     row "外観写真" do
-  #       image_tag(item.image.thumb_min)
+  #       image_tag(item.image.thumb_sm)
   #     end
   #     row "間取り" do
-  #       image_tag item.item_images.first.image_pass.thumb_min
+  #       image_tag item.item_images.first.image_pass.thumb_sm
   #     end
   #   end
   #   active_admin_comments

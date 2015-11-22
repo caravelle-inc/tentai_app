@@ -7,8 +7,9 @@
     <%= f.input :item_id, :as => :hidden, input_html: {value: params[:id]} %>
     <div class="form-group">
       <div class='col-sm-offset-3 col-sm-9'>
-        <%= f.button :submit, :class => 'btn-primary' %>
-        <%= link_to t('.cancel', :default => t("helpers.links.cancel")), items_path, :class => 'btn btn-default' %>
+        <%= link_to t('戻る', :default => t("helpers.links.back")),
+                    item_path(params[:id]), :class => 'btn btn-default'  %>
+        <%= f.button :submit, :value => '送信' ,:class => 'btn btn-warning' %>
       </div>
     </div>
 <% end %>

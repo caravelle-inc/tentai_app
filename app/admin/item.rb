@@ -24,11 +24,11 @@ ActiveAdmin.register Item do
     id_column
     column I18n.t("adminuser.item_name"), :name
     column I18n.t("adminuser.top_image"), :image do |item|
-      image_tag(item.image.thumb_min)
+      image_tag(item.image.thumb_sm)
     end
     # item_imagesから表示の場合
     # column I18n.t("adminuser.item_image"), :item_image do |item|
-    #   image_tag(item.item_images.first.image_pass.thumb_min)
+    #   image_tag(item.item_images.first.image_pass.thumb_sm)
     # end
     column I18n.t("adminuser.price"), :price
     column I18n.t("adminuser.address"), :address
@@ -47,10 +47,10 @@ ActiveAdmin.register Item do
         item.address
       end
       row "外観写真" do
-        image_tag(item.image.thumb_min)
+        image_tag(item.image.thumb_sm)
       end
       row "間取り" do
-        image_tag item.item_images.first.image_pass.thumb_min
+        image_tag item.item_images.first.image_pass.thumb_sm
       end
       row "お問い合わせ" do
 
@@ -69,7 +69,7 @@ ActiveAdmin.register Item do
     f.inputs "Item Details" do
       f.input :name
       f.input :price
-      f.input :address, :as => :select, :collection => [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
+      f.input :address, [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
       f.input :sub_address
       f.input :security_deposit, :as => :select, :collection => [['0', 0],['0.5',0.5],['1',1],['1.5',1.5],['2',2.0]], :prompt => "選択してください"
       f.input :key_money, :as => :select, :collection => [['0', 0],['0.5',0.5],['1',1],['1.5',1.5],['2',2.0]], :prompt => "選択してください"
