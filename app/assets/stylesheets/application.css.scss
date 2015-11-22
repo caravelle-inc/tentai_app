@@ -50,3 +50,11 @@ body {
   table-layout: fixed;
   width: 100%;
 }
+
+.breadcrumb {
+  background:transparent;
+}
+
+.breadcrumb li+li:before {
+  content:'»';
+}

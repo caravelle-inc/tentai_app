@@ -9,14 +9,18 @@
 
   <ol class="breadcrumb">
     <li><%= link_to "Home", items_path %></li>
-    <li><a href="">物件名</a></li>
+    <li class="active"><%= @item.name %></a></li>
   </ol>
 
   <div class="panel panel-default">
+
+    <div class="panel-heading">
+      <div class="panel-title"><%= @item.name %></div>
+    </div>
     <div class="panel-body">
       <div class="col-md-6">
         <div class="item-image-body text-center">
-          <div class="main-item-image"><%= image_tag @item.image.thumb %></div>
+          <div class="main-item-image"><%= image_tag @item.image.thumb_bi %></div>
           <div class="sub-item-image">
             <ul class="text-center">
               <% @item.item_images.each do |image| %>

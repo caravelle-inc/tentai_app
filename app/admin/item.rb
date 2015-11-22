@@ -69,7 +69,7 @@ ActiveAdmin.register Item do
     f.inputs "Item Details" do
       f.input :name
       f.input :price
-      f.input :address, [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
+      f.input :address, :as => :select, :collection => [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
       f.input :sub_address
       f.input :security_deposit, :as => :select, :collection => [['0', 0],['0.5',0.5],['1',1],['1.5',1.5],['2',2.0]], :prompt => "選択してください"
       f.input :key_money, :as => :select, :collection => [['0', 0],['0.5',0.5],['1',1],['1.5',1.5],['2',2.0]], :prompt => "選択してください"

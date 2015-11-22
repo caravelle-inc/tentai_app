@@ -9,7 +9,7 @@
 
   <ol class="breadcrumb">
     <li><%= link_to "Home", items_path %></li>
-    <li><a href="">物件名</a></li>
+    <li><%= link_to @item.name, item_path(@item.id) %></li>
     <li class="active">お問い合わせ</li>
   </ol>
 
