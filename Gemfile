@@ -56,6 +56,15 @@ gem "ransack"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "pry-coolline"
+  gem "pry-rails"
+  gem "pry-byebug"
+  gem "pry-stack_explorer"
+
+  gem "awesome_print"
+
+  gem "hirb"
+  gem "hirb-unicode"
 end
 
 group :development do
@@ -64,5 +73,9 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'better_errors'
+
+  gem 'binding_of_caller'
 end
 
