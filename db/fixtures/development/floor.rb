@@ -48,13 +48,5 @@ Floor.seed do |f|
 end
 Floor.seed do |f|
   f.id = 13
-  f.type = "1K"
-end
-Floor.seed do |f|
-  f.id = 14
-  f.type = "1DK"
-end
-Floor.seed do |f|
-  f.id = 15
   f.type = "5K以上"
 end
