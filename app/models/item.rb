@@ -12,6 +12,6 @@ class Item < ActiveRecord::Base
   paginates_per 4
 
   validates :name, :price, :area_id, :security_deposit, :key_money, :station,
-            :walk_to, :floor_id, :image,  presence: true
+            :walk_to, :floor_id, :image, :admin_user_id, presence: true
 
 end
