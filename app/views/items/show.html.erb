@@ -39,21 +39,21 @@
             <tbody>
             <tr>
               <th>価格</th>
-              <td><%= @item.price %></td>
+              <td><%= number_to_currency(@item.price, unit: '', precision: 0) %>円</td>
               <th></th>
               <td></td>
             </tr>
             <tr>
               <th>敷金</th>
-              <td><%= @item.security_deposit %></td>
+              <td><%= @item.security_deposit %>ヶ月</td>
               <th>礼金</th>
-              <td><%= @item.key_money %></td>
+              <td><%= @item.key_money %>ヶ月</td>
             </tr>
             <tr>
               <th>最寄駅</th>
-              <td><%= @item.station %></td>
+              <td><%= @item.station %>駅</td>
               <th>駅徒歩</th>
-              <td><%= @item.walk_to %></td>
+              <td><%= @item.walk_to %>分</td>
             </tr>
             <tr>
               <th>間取り</th>

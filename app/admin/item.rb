@@ -31,9 +31,13 @@ ActiveAdmin.register Item do
     #   image_tag(item.item_images.first.image_pass.thumb_sm)
     # end
     column I18n.t("adminuser.price"), :price
-    # column I18n.t("adminuser.area_id"), :area_id
+    column I18n.t("adminuser.address"), :area do |item|
+      item.area.district
+    end
     column I18n.t("adminuser.station"), :station
-    # column I18n.t("adminuser.floor_plans"), :floor_plans
+    column I18n.t("adminuser.floor_plans"), :floor do |item|
+      item.floor.type
+    end
     column I18n.t("adminuser.created_at"), :created_at
     actions
   end

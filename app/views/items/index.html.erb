@@ -55,11 +55,11 @@
       <tr>
         <td><%= link_to item.name, item_path(item.id) %></td>
         <td><%= link_to image_tag(item.image.thumb), item_path(item.id) %></td>
-        <td><%= item.price %></td>
-        <td><%= item.area_id %></td>
-        <td><%= item.station %></td>
-        <td><%= item.walk_to %></td>
-        <td><%= item.floor_id %></td>
+        <td><%= number_to_currency(item.price, unit: '', precision: 0) %>円</td>
+        <td><%= item.area.district %>区</td>
+        <td><%= item.station %>駅</td>
+        <td><%= item.walk_to %>分</td>
+        <td><%= item.floor.type %></td>
         <td><%= link_to t('詳細'),
             item_path(item.id), :class => 'btn btn-primary'  %></td>
       </tr>
