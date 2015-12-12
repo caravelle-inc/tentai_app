@@ -30,7 +30,7 @@ ActiveAdmin.register AdminUser do
     f.inputs "Admin Details" do
       f.input :name
       f.input :tel
-      f.input :address, :as => :select, :collection => [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
+      f.input :area_id, :as => :select, :collection => [['渋谷区', '渋谷区'],['新宿区','新宿区'],['中央区','中央区'],['品川区','品川区'],['千代田区','千代田区'],['港区','港区'],['文京区','文京区'],['大田区','大田区'],['江東区','江東区']], :prompt => true
       f.input :corporate_url
       f.input :email
       f.input :password

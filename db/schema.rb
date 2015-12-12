@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151013100251) do
+ActiveRecord::Schema.define(version: 20151209083111) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace",     limit: 255
@@ -66,6 +66,18 @@ ActiveRecord::Schema.define(version: 20151013100251) do
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true, using: :btree
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
+  create_table "areas", force: :cascade do |t|
+    t.string   "district",   limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  create_table "floors", force: :cascade do |t|
+    t.string   "type",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
   create_table "item_contacts", force: :cascade do |t|
     t.string   "name",       limit: 255,   null: false
     t.string   "email",      limit: 255,   null: false
@@ -89,28 +101,22 @@ ActiveRecord::Schema.define(version: 20151013100251) do
     t.string   "name",             limit: 255,   default: ""
     t.datetime "created_at",                                  null: false
     t.datetime "updated_at",                                  null: false
-    t.string   "price",            limit: 255
-    t.string   "address",          limit: 255,   default: ""
+    t.integer  "price",            limit: 4,                  null: false
     t.string   "sub_address",      limit: 255,   default: ""
     t.float    "security_deposit", limit: 24
     t.float    "key_money",        limit: 24
     t.string   "station",          limit: 255,   default: ""
-    t.string   "walk_to",          limit: 255,   default: ""
-    t.string   "floor_plans",      limit: 255,   default: ""
     t.string   "square_meter",     limit: 255
     t.string   "item_age",         limit: 255
     t.text     "equipment",        limit: 65535
     t.text     "description",      limit: 65535
     t.integer  "admin_user_id",    limit: 4
     t.string   "image",            limit: 255
+    t.integer  "walk_to",          limit: 4
+    t.integer  "area_id",          limit: 4,                  null: false
+    t.integer  "floor_id",         limit: 4,                  null: false
   end
 
   add_index "items", ["name"], name: "index_items_on_name", unique: true, using: :btree
-
-  create_table "welcomes", force: :cascade do |t|
-    t.string   "title",      limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
-  end
 
 end

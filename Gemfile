@@ -65,6 +65,8 @@ group :development, :test do
 
   gem "hirb"
   gem "hirb-unicode"
+
+  gem "seed-fu"
 end
 
 group :development do

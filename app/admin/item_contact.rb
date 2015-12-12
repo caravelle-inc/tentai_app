@@ -32,7 +32,7 @@ ActiveAdmin.register ItemContact do
   #       item.name
   #     end
   #     row "住所" do
-  #       item.address
+  #       item.area.district
   #     end
   #     row "外観写真" do
   #       image_tag(item.image.thumb_sm)

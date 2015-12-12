@@ -2,6 +2,8 @@ class Item < ActiveRecord::Base
   has_many :item_images, dependent: :destroy
   has_many :item_contacts
   belongs_to :admin_user
+  belongs_to :floor
+  belongs_to :area
 
   accepts_nested_attributes_for :item_images, allow_destroy: true
 
@@ -9,7 +11,7 @@ class Item < ActiveRecord::Base
 
   paginates_per 4
 
-  validates :name, :price, :address, :sub_address, :security_deposit, :key_money, :station,
-            :walk_to, :floor_plans, :square_meter, :item_age, :image,  presence: true
+  validates :name, :price, :area_id, :security_deposit, :key_money, :station,
+            :walk_to, :floor_id, :image,  presence: true
 
 end

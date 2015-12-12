@@ -20,12 +20,12 @@
     <div class="panel-body">
       <div class="col-md-6">
         <div class="item-image-body text-center">
-          <div class="main-item-image"><%= image_tag @item.image.thumb_bi %></div>
+          <div class="main-item-image"><%= image_tag @item.image.thumb_bi, id: 'MainPhoto' %></div>
           <div class="sub-item-image">
             <ul class="text-center">
               <% @item.item_images.each do |image| %>
                 <div class="item-image-list pull-left">
-                  <li><%= image_tag image.image_pass.thumb_sm %></li>
+                  <li><%= image_tag image.image_pass.thumb_sm, class: 'ChangePhoto' %></li>
                 </div>
               <% end %>
             </ul>
@@ -39,38 +39,38 @@
             <tbody>
             <tr>
               <th>価格</th>
-              <td>12万</td>
+              <td><%= @item.price %></td>
               <th></th>
               <td></td>
             </tr>
             <tr>
               <th>敷金</th>
-              <td>1.0</td>
+              <td><%= @item.security_deposit %></td>
               <th>礼金</th>
-              <td>1.5</td>
+              <td><%= @item.key_money %></td>
             </tr>
             <tr>
               <th>最寄駅</th>
-              <td>渋谷</td>
+              <td><%= @item.station %></td>
               <th>駅徒歩</th>
-              <td>3</td>
+              <td><%= @item.walk_to %></td>
             </tr>
             <tr>
               <th>間取り</th>
-              <td>1LDK</td>
+              <td><% if @item.floor.present? %><%= @item.floor.type %><% end %></td>
               <th>広さ</th>
-              <td>30平米</td>
+              <td><%= @item.square_meter %></td>
             </tr>
             <tr>
               <th>設備・その他</th>
-
+              <td><%= @item.equipment %></td>
             </tr>
             </tbody>
           </table>
         </div>
         <div class="text-center">
           <div class="form-group">
-            <%= link_to t('戻る', :default => t("helpers.links.back")),
+            <%= link_to t('戻る'),
                         items_path, :class => 'btn btn-default' %>
             <%= link_to t('お問い合わせ'),
                         new_item_contact_path(params), :class => 'btn btn-warning' %>
@@ -83,3 +83,19 @@
 </div>
 
 <div class="col-md-1"></div>
+
+
+
+
+<script>
+
+  $('.ChangePhoto').click(function () {
+    var ImgSrc = $(this).attr("src").replace(/sm/g,'bi');
+    var ImgAlt = $(this).attr("alt");
+    $("img#MainPhoto").attr({src:ImgSrc,alt:ImgAlt});
+    $("img#MainPhoto").hide();
+    $("img#MainPhoto").fadeIn("slow");
+    return false;
+  });
+
+</script>
