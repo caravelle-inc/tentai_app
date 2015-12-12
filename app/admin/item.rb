@@ -79,13 +79,13 @@ ActiveAdmin.register Item do
     f.inputs "Item Details" do
       f.input :name
       f.input :price
-      f.input :area_id, :as => :select, :collection => Area.pluck(:district), :prompt => true
+      f.input :area_id, :as => :select, :collection => Area.all.map { |o| [o.district, o.id] }, :prompt => true
       f.input :sub_address
       f.input :security_deposit, :as => :select, :collection => [['0', 0],['0.5',0.5],['1',1],['1.5',1.5],['2',2.0]], :prompt => "選択してください"
       f.input :key_money, :as => :select, :collection => [['0', 0],['0.5',0.5],['1',1],['1.5',1.5],['2',2.0]], :prompt => "選択してください"
       f.input :station
       f.input :walk_to, :as => :select, :collection => [['1', '1'],['3','3'],['5','5'],['7','7'],['10','10'],['15以上','15以上']], :prompt => "選択してください"
-      f.input :floor_id, :as => :select, :collection => Floor.pluck(:type), :prompt => true
+      f.input :floor_id, :as => :select, :collection => Floor.all.map { |o| [o.type, o.id] }, :prompt => true
       f.input :square_meter, :as => :select, :collection => [['20m2', '20m2'],['25m2', '25m2'],['30m2', '30m2'],['35m2', '35m2'],['40m2', '40m2'],['45m2', '45m2'],['50m2', '50m2'],['55m2', '55m2'],['60m2', '60m2'],['65m2', '65m2'],['70m2', '70m2'],['75m2', '75m2'],['80m2以上','80m2以上']], :prompt => true
       f.input :item_age, :as => :select, :collection => [['1年', '1年'],['3年', '3年'],['5年', '5年'],['7年', '7年'],['10年', '10年'],['15年', '15年'],['20年', '20年'],['25年', '25年'],['30年以上', '30年以上']], :prompt => true
       f.input :equipment
