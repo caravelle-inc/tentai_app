@@ -1,7 +1,7 @@
 class ItemContactsController < ApplicationController
   def new
     @item_contact = ItemContact.new
-    @item_id = params[:id]
+    @item = Item.find(params[:id])
   end
 
   def create

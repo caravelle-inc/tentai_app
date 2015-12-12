@@ -24,7 +24,7 @@ ActiveAdmin.register ItemImage do
     id_column
     column I18n.t("adminuser.image_type"), :image_type
     column I18n.t("adminuser.top_image"), :image_pass do |item_image|
-      image_tag(item_image.image_pass.thumb_min)
+      image_tag(item_image.image_pass.thumb_sm)
     end
     column I18n.t("adminuser.created_at"), :created_at
     actions
