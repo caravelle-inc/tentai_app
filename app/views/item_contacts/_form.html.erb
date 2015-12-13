@@ -1,8 +1,7 @@
 <%= simple_form_for @item_contact, :html => {:class => 'form-horizontal'}, wrapper: :horizontal_form, wrapper_mappings: {check_boxes: :horizontal_radio_and_checkboxes, radio_buttons: :horizontal_radio_and_checkboxes, file: :horizontal_file_input, boolean: :horizontal_boolean} do |f| %>
-    <%= f.input :name, label: "名前" %>
-    <%= f.input :email, label: "メールアドレス" %>
-    <%= f.input :purpose, label: "目的" %>
-    <%= f.input :comment, label: "コメント", hint: "自由記入" %>
+    <%= f.input :name, label: "お名前" %>
+    <%= f.input :email, label: "ご連絡先" %>
+    <%= f.input :comment, label: "ご要望", hint: "自由記入" %>
     <%= f.input :arrive_at, :as => :hidden, input_html: {value: Time.now} %>
     <%= f.input :item_id, :as => :hidden, input_html: {value: @item.id} %>
     <div class="form-group">

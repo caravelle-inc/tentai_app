@@ -81,7 +81,7 @@ ActiveRecord::Schema.define(version: 20151209083111) do
   create_table "item_contacts", force: :cascade do |t|
     t.string   "name",       limit: 255,   null: false
     t.string   "email",      limit: 255,   null: false
-    t.string   "purpose",    limit: 255,   null: false
+    t.string   "purpose",    limit: 255
     t.text     "comment",    limit: 65535
     t.datetime "arrive_at",                null: false
     t.integer  "item_id",    limit: 4,     null: false

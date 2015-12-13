@@ -91,7 +91,7 @@ ActiveAdmin.register Item do
       f.input :equipment
       f.input :description
       if current_admin_user.email == "m220274@gmail.com"
-        f.input :admin_user_id, :as => :select, :collection => AdminUser.pluck(:name), :prompt => true
+        f.input :admin_user_id, :as => :select, :collection => AdminUser.all.map { |o| [o.name, o.id] }, :prompt => true
       else
         f.input :admin_user_id, input_html: {value: current_admin_user.id}
       end
