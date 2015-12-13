@@ -141,6 +141,11 @@ thead {
 tbody.trhover tr:hover{
   background-color: ghostwhite;
   border-color: ghostwhite;
+  cursor:pointer;
+}
+
+tbody.trhover tr {
+  //display: block;
 }
 
 .pagination > li > a:hover {

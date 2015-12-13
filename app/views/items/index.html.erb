@@ -3,7 +3,7 @@
 <div class="col-md-9">
   <div class="item-count"><a class="font-large"><%= @item_counts %></a>件 該当しました</div>
   <!--<div class="sort">新着順|価格順</div>-->
-  <table class="table table-hover">
+  <table class="table table-hover table-responsive">
     <thead>
     <tr>
       <th><%= I18n.t("adminuser.item_name") %></th>
@@ -18,7 +18,7 @@
     </thead>
     <tbody class="trhover">
     <% @items.each do |item| %>
-      <tr>
+      <tr class='clickable-row' data-href="<%= item_path(item.id) %>">
         <td><%= link_to item.name, item_path(item.id) %></td>
         <td><%= link_to image_tag(item.image.thumb), item_path(item.id) %></td>
         <td><%= number_to_currency(item.price, unit: '', precision: 0) %>円</td>
@@ -33,7 +33,7 @@
     </tbody>
   </table>
 
-  <div class="text-center aaa"><%= paginate @items %></div>
+  <div class="text-center"><%= paginate @items %></div>
 </div>
 
 <div class="col-md-3">
@@ -69,3 +69,14 @@
 </div>
 
 
+
+
+<script>
+
+  jQuery(document).ready(function ($) {
+    $(".clickable-row").click(function () {
+      window.document.location = $(this).data("href");
+    });
+  });
+
+</script>
