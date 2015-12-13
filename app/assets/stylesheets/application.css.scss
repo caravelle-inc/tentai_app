@@ -4,7 +4,7 @@
 //@import "bootstrap-responsive";     //responsiveデザインに対応
 
 body {
-  background-color: #F5F5F5;
+  background-color: #fafafa;
 }
 
 .header {
@@ -117,8 +117,8 @@ footer {
 }
 
 .btn.btn-primary {
-  background-color: #888888;
-  border-color: #888888;
+  background-color: #a6a6a6;
+  border-color: #a6a6a6;
 }
 
 .btn.btn-warning {
@@ -127,15 +127,15 @@ footer {
 }
 
 .panel-default > .panel-heading {
-  background-color: #e6e6e6;
+  background-color: #eeeeee ;
 }
 thead {
-  background-color: #e6e6e6;
+  background-color: #eeeeee;
 }
 
 .pagination > .active > a {
-  background-color: #888888;
-  border-color: #888888;
+  background-color: #a6a6a6;
+  border-color: #a6a6a6;
 }
 
 tbody.trhover tr:hover{
