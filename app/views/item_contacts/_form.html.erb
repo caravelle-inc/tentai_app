@@ -1,14 +1,20 @@
 <%= simple_form_for @item_contact, :html => {:class => 'form-horizontal'}, wrapper: :horizontal_form, wrapper_mappings: {check_boxes: :horizontal_radio_and_checkboxes, radio_buttons: :horizontal_radio_and_checkboxes, file: :horizontal_file_input, boolean: :horizontal_boolean} do |f| %>
-    <%= f.input :name, label: "お名前" %>
-    <%= f.input :email, label: "ご連絡先" %>
-    <%= f.input :comment, label: "ご要望", hint: "自由記入" %>
-    <%= f.input :arrive_at, :as => :hidden, input_html: {value: Time.now} %>
-    <%= f.input :item_id, :as => :hidden, input_html: {value: @item.id} %>
-    <div class="form-group">
-      <div class='col-sm-offset-3 col-sm-9'>
-        <%= link_to t('戻る'),
-                    item_path(@item.id), :class => 'btn btn-default'  %>
-        <%= f.button :submit, :value => '送信' ,:class => 'btn btn-warning' %>
+  <%= f.input :name, label: "お名前" %>
+  <%= f.input :email, label: "ご連絡先" %>
+  <%= f.input :comment, label: "ご要望", hint: "自由記入" %>
+  <%= f.input :arrive_at, :as => :hidden, input_html: {value: Time.now} %>
+  <%= f.input :item_id, :as => :hidden, input_html: {value: @item.id} %>
+  <div class="form-group">
+    <div class='col-sm-offset-3 col-sm-9'>
+      <div class="row">
+        <div class="col-md-6">
+          <%= link_to t('戻る'),
+                      item_path(@item.id), :class => 'btn btn-primary btn-block' %>
+        </div>
+        <div class="col-md-6">
+          <%= f.button :submit, :value => '送信', :class => 'btn btn-warning btn-block' %>
+        </div>
       </div>
     </div>
+  </div>
 <% end %>

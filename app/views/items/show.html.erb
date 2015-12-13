@@ -11,7 +11,7 @@
 
   <div class="panel panel-default">
 
-    <div class="panel-heading">
+    <div class="panel-heading aaa">
       <div class="panel-title"><%= @item.name %></div>
     </div>
     <div class="panel-body">
@@ -31,7 +31,7 @@
       </div>
 
       <div class="col-md-6">
-        <div class="item-detail">
+        <div class="">
           <table class="table table-bordered text-center table-item-detail">
             <tbody>
             <tr>
@@ -65,13 +65,14 @@
             </tbody>
           </table>
         </div>
-        <div class="text-center">
-          <div class="form-group">
+        <div class="row">
+          <div class="col-md-6">
             <%= link_to t('戻る'),
-                        items_path, :class => 'btn btn-default' %>
-            <%= link_to t('お問い合わせ'),
-                        new_item_contact_path(params), :class => 'btn btn-warning' %>
+                        item_path(@item.id), :class => 'btn btn-primary btn-block' %>
           </div>
+          <div class="col-md-6">
+            <%= link_to t('お問い合わせ'),
+                        new_item_contact_path(params), :class => 'btn btn-warning btn-block' %>          </div>
         </div>
       </div>
     </div>
