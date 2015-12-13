@@ -1,5 +1,4 @@
 <%- model_class = Item -%>
-<div class="page-header"></div>
 
 <div class="col-md-3">
   <div class="panel panel-default">
@@ -8,7 +7,7 @@
     </div>
     <div class="panel-body">
       <%= search_form_for(@q, method: :get) do |f| %>
-        <div class="kensaku">
+        <div class="search-field">
           <div class="form-group">
             <%= f.label :area_id_eq, 'エリア' %>
             <%= f.select :area_id_eq, Area.all.map { |o| [o.district, o.id] }, {include_blank: true}, {class: "form-control"} %>
@@ -35,7 +34,7 @@
 
 <div class="col-md-9">
   <div class="item-count"><a class="font-large"><%= @item_counts %></a>件 該当しました</div>
-  <div class="sort">新着順|価格順</div>
+  <!--<div class="sort">新着順|価格順</div>-->
   <table class="table table-hover">
     <thead>
     <tr>

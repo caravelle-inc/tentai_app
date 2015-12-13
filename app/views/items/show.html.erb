@@ -1,7 +1,4 @@
 <%- model_class = Item -%>
-<div class="page-header">
-  <h1><%#=t '.title', :default => model_class.model_name.human.titleize %></h1>
-</div>
 
 <div class="col-md-1"></div>
 
@@ -19,8 +16,8 @@
     </div>
     <div class="panel-body">
       <div class="col-md-6">
-        <div class="item-image-body text-center">
-          <div class="main-item-image"><%= image_tag @item.image.thumb_bi, id: 'MainPhoto' %></div>
+        <div class="text-center">
+          <div><%= image_tag @item.image.thumb_bi, id: 'MainPhoto' %></div>
           <div class="sub-item-image">
             <ul class="text-center">
               <% @item.item_images.each do |image| %>

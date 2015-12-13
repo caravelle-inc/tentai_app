@@ -4,20 +4,38 @@
 //@import "bootstrap-responsive";     //responsiveデザインに対応
 
 
-body {
-  padding-top: 10px;
+.header {
+  margin-top: 0px;
+  padding-bottom: 30px;
+  bottom: 50px;
+  color: white;
+  background-color: #000000;
+  a:link {
+    color: white;
+  }
+  //a:visited {
+  //  color: #;
+  //}
 }
 
-.container > .navbar-collapse > ul {
-  margin-left: 320px;
+.sub-title {
+  margin-top: 20px;
+  color: white;
 }
 
-.kensaku {
+//.container > .navbar-collapse > ul {
+//  margin-left: 320px;
+//}
+
+.main-content {
+  margin-top: 30px;
+}
+
+.search-field {
   text-align : center;
 }
 
 .font-large {
-//  font-weight: bold;
   font-size: large;
 }
 
@@ -29,20 +47,11 @@ body {
   float: left;
 }
 
-.sort {
-  float: right;
-}
-
-.item-image-body {
-
-}
-
-.main-item-image {
-
-}
+//.sort {
+//  float: right;
+//}
 
 .item-image-list {
-//  float: left;
   list-style:none;
 }
 
@@ -57,4 +66,28 @@ body {
 
 .breadcrumb li+li:before {
   content:'»';
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #000000;
+  color: white;
+
+  a:link {
+    color: white;
+  }
+  .footer-menu {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 350px;
+
+  }
+  .logo {
+    text-align: center;
+  }
+  int {
+    margin: 10px;
+  }
 }
