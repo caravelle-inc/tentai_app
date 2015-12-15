@@ -33,7 +33,7 @@ body {
 
 .header-logo:hover {
   a:link {
-    color: #DEDC45;
+    color: #e1e454;
     text-decoration: none;
   }
 }
@@ -65,13 +65,28 @@ body {
 //  float: right;
 //}
 
+.item-btn {
+  margin: 40px;
+}
+
+
+.item-content {
+  margin-top: 30px;
+}
+
 .item-image-list {
   list-style:none;
+  margin-top: 30px;
 }
 
 .table-item-detail {
   table-layout: fixed;
   width: 100%;
+}
+
+.item-map {
+  padding-top: 40px;
+  margin: 55px;
 }
 
 .breadcrumb {
@@ -105,7 +120,7 @@ footer {
 
   .footer-logo:hover {
     a:link {
-      color: #DEDC45;
+      color: #e1e454;
       text-decoration: none;
     }
   }
@@ -122,8 +137,8 @@ footer {
 }
 
 .btn.btn-warning {
-  background-color: #DEDC45;
-  border-color: #DEDC45;
+  background-color: #e1e454;
+  border-color: #e1e454;
 }
 
 .panel-default > .panel-heading {
@@ -149,11 +164,11 @@ tbody.trhover tr {
 }
 
 .pagination > li > a:hover {
-  background-color: #DEDC45;
-  border-color: #DEDC45;
+  background-color: #e1e454;
+  border-color: #e1e454;
 }
 
 .pagination > .active > a:hover {
-  background-color: #DEDC45;
-  border-color: #DEDC45;
+  background-color: #e1e454;
+  border-color: #e1e454;
 }

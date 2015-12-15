@@ -12,6 +12,12 @@ class ItemsController < ApplicationController
 
   def show
     @item = Item.find(params[:id])
+    @hash = Gmaps4rails.build_markers(@item) do |item, marker|
+      marker.lat item.latitude
+      marker.lng item.longitude
+      marker.infowindow item.description
+      marker.json({title: item.name})
+    end
   end
 
 end

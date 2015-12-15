@@ -14,4 +14,7 @@ class Item < ActiveRecord::Base
   validates :name, :price, :area_id, :security_deposit, :key_money, :station,
             :walk_to, :floor_id, :image, :admin_user_id, presence: true
 
+  geocoded_by :sub_address
+  after_validation :geocode
+
 end
