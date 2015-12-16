@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
 
   def index
-    @items = Item.order('created_at DESC').page(params[:page])
+    @items = Item.where(flag: true).order('created_at DESC').page(params[:page])
     @q = Item.ransack(params[:q])
     @item_counts = Item.all.count
     if params[:q]

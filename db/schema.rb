@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151215102348) do
+ActiveRecord::Schema.define(version: 20151216094215) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace",     limit: 255
@@ -99,9 +99,9 @@ ActiveRecord::Schema.define(version: 20151215102348) do
 
   create_table "items", force: :cascade do |t|
     t.string   "name",             limit: 255,   default: ""
-    t.datetime "created_at",                                   null: false
-    t.datetime "updated_at",                                   null: false
-    t.integer  "price",            limit: 4,                   null: false
+    t.datetime "created_at",                                    null: false
+    t.datetime "updated_at",                                    null: false
+    t.integer  "price",            limit: 4,                    null: false
     t.string   "sub_address",      limit: 255,   default: ""
     t.float    "security_deposit", limit: 24
     t.float    "key_money",        limit: 24
@@ -113,10 +113,11 @@ ActiveRecord::Schema.define(version: 20151215102348) do
     t.integer  "admin_user_id",    limit: 4
     t.string   "image",            limit: 255
     t.integer  "walk_to",          limit: 4
-    t.integer  "area_id",          limit: 4,                   null: false
-    t.integer  "floor_id",         limit: 4,                   null: false
+    t.integer  "area_id",          limit: 4,                    null: false
+    t.integer  "floor_id",         limit: 4,                    null: false
     t.float    "latitude",         limit: 24,    default: 0.0
     t.float    "longitude",        limit: 24,    default: 0.0
+    t.boolean  "flag",                           default: true
   end
 
   add_index "items", ["name"], name: "index_items_on_name", unique: true, using: :btree
