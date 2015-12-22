@@ -1,4 +1,4 @@
-class ItemsController < ApplicationController
+  class ItemsController < ApplicationController
 
   def index
     @items = Item.where(flag: true).order('created_at DESC').page(params[:page])
@@ -18,6 +18,16 @@ class ItemsController < ApplicationController
       marker.infowindow item.description
       marker.json({title: item.name})
     end
+  end
+
+  def flag_check
+    @item = Item.find(params[:id])
+    if @item.flag == true
+      @item.flag = false
+    else
+      @item.flag = true
+    end
+    @item.save
   end
 
 end

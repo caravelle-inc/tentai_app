@@ -1,0 +1,6 @@
+alert("こんにちは");
+<% if @item.flag == true %>
+$("#item_<%= @item.id %> a:eq(1)").html("true");
+<% elsif %>
+$("#item_<%= @item.id %> a:eq(1)").html("false");
+<% end %>

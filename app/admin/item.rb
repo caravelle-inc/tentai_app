@@ -1,4 +1,4 @@
-ActiveAdmin.register Item do
+  ActiveAdmin.register Item do
   permit_params :name, :price, :image, :image_cache, :area_id, :sub_address, :security_deposit, :key_money,
                 :station, :walk_to, :floor_id, :square_meter, :item_age, :equipment, :description,
                 :admin_user_id, :flag, item_images_attributes: [:id, :image_type, :image_pass, :_destroy], areas_attributes: [:id, :district]
@@ -39,6 +39,9 @@ ActiveAdmin.register Item do
       item.floor.type
     end
     column I18n.t("adminuser.created_at"), :created_at
+    column "表示・非表示", :flag do |item|
+      link_to "#{item.flag}", flag_check_item_path(item), remote: true, method: :post
+    end
     actions
   end
 

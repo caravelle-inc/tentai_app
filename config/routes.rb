@@ -6,7 +6,11 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
 
-  resources :items, :only => [:index, :show]
+  resources :items, :only => [:index, :show] do
+    member do
+      post 'flag_check'
+    end
+  end
 
   resources :item_contacts, :only => [:new, :create]
 
