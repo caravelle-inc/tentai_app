@@ -18,52 +18,60 @@
       <div class="item-content">
 
       <div class="col-md-6">
-        <div class="">
-          <div><%= image_tag @item.image.thumb_bi, id: 'MainPhoto' %></div>
-          <div class="sub-item-image">
-            <ul class="text-center">
-              <% @item.item_images.each do |image| %>
-                <div class="item-image-list pull-left">
-                  <li><%= image_tag image.image_pass.thumb_sm, class: 'ChangePhoto' %></li>
-                </div>
-              <% end %>
-            </ul>
-          </div>
+        <div class="item-image">
+            <%= image_tag @item.image.thumb_bi, id: 'MainPhoto' %>
+        </div>
+        <div class="sub-item-image">
+          <ul class="text-center">
+            <% @item.item_images.each do |image| %>
+              <div class="item-image-list pull-left">
+                <li><%= image_tag image.image_pass.thumb_sm, class: 'ChangePhoto' %></li>
+              </div>
+            <% end %>
+          </ul>
         </div>
       </div>
 
       <div class="col-md-6">
         <div class="">
-          <table class="table table-bordered text-center table-responsive">
+          <table class="item-table table-bordered text-center table-responsive">
             <tbody>
             <tr>
-              <th>価格</th>
-              <td><%= number_to_currency(@item.price, unit: '', precision: 0) %>円</td>
-              <th></th>
-              <td></td>
+              <th class="col-md-3">価格</th>
+              <td class="col-md-3"><%= number_to_currency(@item.price, unit: '', precision: 0) %><small>円</small></td>
+              <th class="col-md-3"></th>
+              <td class="col-md-3"></td>
             </tr>
             <tr>
-              <th>敷金</th>
-              <td><%= @item.security_deposit %>ヶ月</td>
-              <th>礼金</th>
-              <td><%= @item.key_money %>ヶ月</td>
+              <th class="col-md-3">敷金</th>
+              <td class="col-md-3"><%= @item.security_deposit %><small>ヶ月</small></td>
+              <th class="col-md-3">礼金</th>
+              <td class="col-md-3"><%= @item.key_money %><small>ヶ月</small></td>
             </tr>
             <tr>
-              <th>最寄駅</th>
-              <td><%= @item.station %>駅</td>
-              <th>駅徒歩</th>
-              <td><%= @item.walk_to %>分</td>
+              <th class="col-md-3">最寄駅</th>
+              <td class="col-md-3"><%= @item.station %></td>
+              <th class="col-md-3">駅徒歩</th>
+              <td class="col-md-3"><%= @item.walk_to %><small>分</small></td>
             </tr>
             <tr>
-              <th>間取り</th>
-              <td><% if @item.floor.present? %><%= @item.floor.type %><% end %></td>
-              <th>広さ</th>
-              <td><%= @item.square_meter %></td>
+              <th class="col-md-3">間取り</th>
+              <td class="col-md-3"><% if @item.floor.present? %><%= @item.floor.type %><% end %></td>
+              <th class="col-md-3">広さ</th>
+              <td class="col-md-3"><%= @item.square_meter %></td>
             </tr>
-            <tr>
-              <th>設備・その他</th>
-              <td><%= @item.equipment %></td>
-            </tr>
+            </tbody>
+          </table>
+          <table class="item-sub-table table-bordered text-center table-responsive">
+            <tbody>
+              <tr>
+                <th class="col-md-3">設備</th>
+                <td class="col-md-9"><small><%= @item.equipment %></small></td>
+              </tr>
+              <tr>
+                <th class="col-md-3">その他</th>
+                <td class="col-md-9"><small><%= @item.description %></small></td>
+              </tr>
             </tbody>
           </table>
         </div>
