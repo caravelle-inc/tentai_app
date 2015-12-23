@@ -198,3 +198,12 @@ tbody.trhover tr {
   text-align: right;
   padding-top: 15px;
 }
+
+.btn:hover {
+  box-shadow:2px 2px 2px #555;
+  text-shadow:1px 1px #555;
+}
+// .btn:active {
+// 	top: 3px;
+// 	box-shadow: none;
+// }
