@@ -1,10 +1,22 @@
+<div class="contact-form">
+
 <%= simple_form_for @item_contact, :html => {:class => 'form-horizontal'}, wrapper: :horizontal_form, wrapper_mappings: {check_boxes: :horizontal_radio_and_checkboxes, radio_buttons: :horizontal_radio_and_checkboxes, file: :horizontal_file_input, boolean: :horizontal_boolean} do |f| %>
-  <%= f.input :name, label: "お名前" %>
-  <%= f.input :email, label: "ご連絡先" %>
-  <%= f.input :comment, label: "ご要望", hint: "自由記入" %>
+  <div class="contact-item">
+    <div class="form-group">
+      <label class="string required col-sm-3 control-label">物件名</label>
+      <div class="col-sm-9 "><%= link_to @item.name, item_path(@item.id) %></div>
+    </div>
+    <div class="form-group string required">
+      <label class="string required col-sm-3 control-label"></label>
+      <div class="col-sm-9 "><%= link_to image_tag(@item.image.thumb), item_path(@item.id) %></div>
+    </div>
+  </div>
+  <%= f.input :name, label: "お名前", hint: "※カタカナでご入力ください。", placeholder: '例)テンタイ　タロウ' %>
+  <%= f.input :email, label: "メールアドレス", hint: "※返信メールが受信可能なメールアドレスをご入力ください", placeholder: '例)tentaibukken@gmail.com' %>
+  <%= f.input :comment, label: "内容", hint: "※ご質問、ご要望等をご記入ください。", placeholder: '例)内見をしたいです。' %>
   <%= f.input :arrive_at, :as => :hidden, input_html: {value: Time.now} %>
   <%= f.input :item_id, :as => :hidden, input_html: {value: @item.id} %>
-  <div class="form-group">
+  <div class="form-group form-action-btn">
     <div class='col-sm-offset-3 col-sm-9'>
       <div class="row">
         <div class="col-md-6">
@@ -18,3 +30,5 @@
     </div>
   </div>
 <% end %>
+
+</div>
