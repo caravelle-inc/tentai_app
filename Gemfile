@@ -6,7 +6,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 # Herokuの本番(production)環境ではPostgresqlを使用する
 gem 'mysql2', '~> 0.3.17', :group => [:development, :test]
-gem 'pg', :group => [:production]
+
+group :production do
+    gem 'pg'
+    gem 'rails_12factor'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
