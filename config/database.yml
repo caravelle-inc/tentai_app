@@ -15,6 +15,14 @@ test:
   <<: *default
   database: tentai_app_test
 
+# Herokuに合わせて変更が必要
+# 本番(production)環境のみ
 production:
-  <<: *default
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  username: matsushita
+  password: matsushita
+  socket: /tmp/mysql.sock
   database: tentai_app_production
