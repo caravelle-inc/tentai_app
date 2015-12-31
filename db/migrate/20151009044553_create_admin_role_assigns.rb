@@ -2,6 +2,8 @@ class CreateAdminRoleAssigns < ActiveRecord::Migration
   def migrate(direction)
     super
     # migrate時に初期管理ユーザにsuper_admin権限を付与
+    a = AdminUser.new(id: 1, email: "m220274@gmail.com",created_at: "2015-12-31 00:48:19", updated_at: "2015-12-31 00:48:19")
+    a.save(validate: false)
     AdminRoleAssign.create!(admin_role_id: AdminRole.first.id, admin_user_id: AdminUser.first.id) if direction == :up
   end
 
